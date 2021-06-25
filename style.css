@@ -1,0 +1,35 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    /* it wil show no scrollbar dont worry it will show only when there is more content */
+    overflow: hidden;
+}
+
+#editor {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    /* now here you can control all the editor styling */
+    line-height: 35px;
+    font-family: 'Consolas';
+}
+
+#container {
+    height: 100%;
+    /* width auto means that it will adjust the width according to the height :) */
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    /* Postion relative  */
+    position: relative;
+}
+
+#iframe {
+    height: 100%;
+    display: inline-block;
+    width: 50%;
+    /* i put spacing there because the user will do the styling with out editor  */
+}
